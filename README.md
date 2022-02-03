@@ -4,6 +4,10 @@
 - 98air_2water_chemistry_old.txt: This contains the humid air chemistry with 2% water vapour in the gas composition.
 - Dry_air_chemistry_old.txt: This is the file without any water molecule reactions
 
+## Reaction data I added
+- 98air_2water_chemistry_RONS_Norberg.txt: This contains the humis air chemistry as above. But I added the reactions from Table 1 of the following paper: https://iopscience.iop.org/article/10.1088/0963-0252/24/3/035026. However, I could not find the cross-section data for reactions R1, R2, R9, R14, R15. I think I need to find them using the LXCAT database. 
+- *Immediate next step*: Obtain the cross-section data for the reactions(including the missing reactions, with help from others), run the data through bolsig- to get the rate constants
+
 ## To do/ to ponder:
 - I see two reaction sets that can be made:
 	- RONS with dry air.
